@@ -1,0 +1,9 @@
+id: footer
+name: Footer
+icon: border-bottom
+parameters: []
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-06-30T21:35:00.479377+00:00'
+updated: '2021-08-11T16:19:14.878436+00:00'

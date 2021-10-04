@@ -1,0 +1,23 @@
+id: videoCarousel
+name: Video Carousel
+icon: math-divide
+parameters:
+  - id: slidecount
+    name: slideCount
+    type: text
+    typeConfig:
+      required: true
+  - id: entry
+    name: Entry
+    type: contentfulEntry
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        story:
+          id: story
+          name: Story
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-08-27T14:53:25.070842+00:00'
+updated: '2021-08-27T14:53:40.703928+00:00'

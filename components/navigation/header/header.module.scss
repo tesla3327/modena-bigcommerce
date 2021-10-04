@@ -1,0 +1,10 @@
+@use 'styles/placeholder';
+
+.site-header {        
+    @extend %container;
+    align-items: center;
+    display: flex;    
+    justify-content: center;
+    margin-bottom: var(--spacing-md);   
+    position: relative;
+}

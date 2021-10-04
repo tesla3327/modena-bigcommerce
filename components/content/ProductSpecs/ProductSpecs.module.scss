@@ -1,0 +1,26 @@
+@use 'styles/placeholder';
+@import 'styles/breakpoints';
+
+.product-specs {  
+  padding: var(--spacing-md) 0;
+  max-width: 872px;
+  margin: var(--spacing-xl) auto;
+
+  &__title {
+    margin: 0 0 var(--spacing-md);
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-sm);
+    text-align: center;
+  }
+
+  &__tag {
+    display: block;
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+  }
+
+  &__supporting {
+    text-align: left;
+  }
+}

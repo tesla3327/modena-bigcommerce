@@ -1,0 +1,82 @@
+composition:
+  _id: 5f193ae3-520f-429b-8cfc-b4d851662e7d
+  type: productLandingPage
+  _name: Landing
+  _slug: /landing
+  slots:
+    footer:
+      - type: footer
+        parameters: {}
+    header:
+      - type: header
+        parameters: {}
+    content:
+      - type: $personalization
+        slots:
+          pz:
+            - type: hero
+              parameters:
+                entry:
+                  type: contentfulEntry
+                  value: 2UzV4wTVJJIku1WTpV3jYV
+                intentTag:
+                  type: intentTag
+                  value:
+                    intents:
+                      menHipster:
+                        str: 50
+            - type: hero
+              parameters:
+                entry:
+                  type: contentfulEntry
+                  value: 7lHSjrW2vOIhVmDXS3knNi
+        parameters:
+          trackingEventName:
+            type: text
+            value: Home Hero
+      - type: story
+        parameters:
+          entry:
+            type: contentfulEntry
+            value: 6jOqXJxoBdVr1aBqMjBbP1
+      - type: $test
+        slots:
+          test:
+            - type: featuredProduct
+              variant: primary
+              parameters:
+                product:
+                  type: bigcommerceProduct
+                  value: ''
+            - type: featuredProduct
+              variant: secondary
+              parameters:
+                product:
+                  type: bigcommerceProduct
+                  value: ''
+        parameters:
+          test:
+            type: testSelect
+            value: Featured Product Test
+      - type: productCollectionList
+        parameters:
+          tag:
+            type: text
+            value: awesome stuff
+          heading:
+            type: text
+            value: Cool collection
+          products:
+            type: bigcommerceProductList
+            value: []
+      - type: accordion
+        parameters:
+          entry:
+            type: contentfulEntry
+            value: 2BM6q63DOIdZAFgkFHXCHV
+  parameters:
+    pageTitle:
+      type: text
+      value: Demo product landing page
+created: '2021-09-30T23:17:41.825161+00:00'
+modified: '2021-09-30T23:17:41.825161+00:00'

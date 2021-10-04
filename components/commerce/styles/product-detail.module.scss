@@ -1,0 +1,31 @@
+@use 'styles/placeholder';
+@import "styles/breakpoints";
+
+.product-detail {  
+  max-width: var(--site-width);
+  margin: var(--spacing-xl) auto;
+
+  &__title {
+    margin: 0 0 var(--spacing-md);
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-sm);
+    text-align: center;
+  }
+
+  &__tag {
+    display: block;
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+  }
+
+  &__supporting {
+    @include breakpoint(lg) {
+      display: flex;
+      flex-flow: row nowrap;
+      height: 100vh;
+      min-width: 320px;
+      max-height: 75vh;
+    }
+  }
+}

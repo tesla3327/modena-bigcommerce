@@ -1,0 +1,108 @@
+@use 'styles/placeholder';
+@import "styles/breakpoints";
+
+.story {
+  @extend %container;
+
+  &__inner {
+    max-width: var(--max-inner-content);
+    width: 100%;
+    padding: 0 0 var(--spacing-xl) 64px;
+    margin-left: auto;
+  }
+
+  &__banner {
+    align-items: flex-end;
+    background-size: cover;
+    color: var(--brand-primary-1);
+    display: flex;
+    min-height: var(--h-25);
+    margin: 0 0 var(--spacing-md);
+    padding: var(--spacing-sm);
+    position: relative;
+    overflow: hidden;
+
+    @include breakpoint(sm) {
+      padding: var(--spacing-md) var(--spacing-xl);
+    }
+  }
+
+  &__img {
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    object-position: bottom left;
+
+    @include breakpoint(sm) {
+      object-position: bottom right;
+    }
+  }
+
+  &__tagline,
+  &__title {
+    position: relative;
+  }
+
+  &__tagline {
+    display: block;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+
+    &--spaced {
+      margin: 0 0 var(--spacing-sm);
+    }
+  }
+
+  &__title {
+    font-size: clamp(
+      var(--font-size),
+      5vw + var(--font-size),
+      var(--font-size-xl)
+    );
+    line-height: var(--line-height-sm);
+    margin: 0;
+
+    @include breakpoint(md) {
+      max-width: 60%;
+    }
+  }
+
+  &__text {
+    @extend %title-line;
+    max-width: var(--max-prose);
+    margin: var(--spacing-sm) 0 0;
+  }
+
+  &__subtitle {
+    font-size: var(--font-size-md);
+    margin: 0 0 var(--spacing-sm);
+  }
+
+  &__container {
+    padding: 0 var(--spacing-sm);
+
+    @include breakpoint(sm) {
+      padding: 0 var(--spacing-xl);
+    }
+  }
+
+  &__supporting {
+    margin: var(--spacing-md) 0 0;
+
+    @include breakpoint(sm) {
+      display: flex;
+      gap: var(--spacing-xl);
+    }
+  }
+
+  &__card {
+    @include breakpoint(sm) {
+      // padding: 0 var(--spacing-lg) 0 0;
+    }
+  }
+}

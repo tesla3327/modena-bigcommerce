@@ -1,0 +1,72 @@
+@use 'styles/placeholder';
+@import "styles/breakpoints";
+
+.site-footer {
+  border-top: 1px solid var(--gray-200);
+  min-height: var(--spacing-xl);
+  font-size: var(--font-size-sm);
+
+  &__inner {
+    @extend %container;
+    color: var(--brand-primary-1);
+    padding: 0 var(--spacing-sm);
+    text-align: center;    
+
+    @include breakpoint(xl) {
+      align-items: flex-start;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;      
+      text-align: left;
+    }
+  }
+
+  &__logo {
+    margin: 0 auto;
+    @include breakpoint(xl) {
+      margin: 0 var(--spacing-xl) 0 0;
+    }
+  }
+
+  &__link-group {    
+    margin: var(--spacing-md) 0 var(--spacing-xsm);
+
+    @include breakpoint(md) {
+      display: flex;
+      gap: var(--spacing-xl);
+      justify-content: center;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    margin: 0 0 var(--spacing-xxsm);
+  }
+
+  &__link,
+  &__social {
+    opacity: 0.75;
+    transition: opacity 0.25s ease-in-out;    
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__social {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-xsm);
+    margin: var(--spacing-md) 0 0 auto;
+  }
+
+  &__copyright {
+    width: 100%;    
+  }
+}

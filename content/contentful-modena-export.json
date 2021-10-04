@@ -1,0 +1,3582 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "hero",
+        "type": "ContentType",
+        "createdAt": "2021-06-04T03:29:03.494Z",
+        "updatedAt": "2021-06-04T03:36:18.529Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-04T03:36:18.529Z",
+        "firstPublishedAt": "2021-06-04T03:29:03.797Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Hero",
+      "description": "Hero for landing page",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "verticalTitle",
+          "name": "Vertical title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "header",
+          "name": "Header",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shortCopy",
+          "name": "Short copy",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "storyBlock",
+        "type": "ContentType",
+        "createdAt": "2021-06-04T03:33:40.201Z",
+        "updatedAt": "2021-06-04T03:36:07.942Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-04T03:36:07.942Z",
+        "firstPublishedAt": "2021-06-04T03:33:40.669Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Story block",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "introHeader",
+          "name": "intro header",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "header",
+          "name": "Header",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "copy",
+          "name": "Copy",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "story",
+        "type": "ContentType",
+        "createdAt": "2021-06-04T03:34:32.764Z",
+        "updatedAt": "2021-06-06T01:24:18.125Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 23,
+        "publishedAt": "2021-06-06T01:24:18.125Z",
+        "firstPublishedAt": "2021-06-04T03:34:33.092Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 12,
+        "version": 24,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Story",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "tagLine",
+          "name": "Tag Line",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "intro",
+          "name": "Intro Text",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "backgroundImage",
+          "name": "Background image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "stories",
+          "name": "Stories",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "storyBlock"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "benefits",
+        "type": "ContentType",
+        "createdAt": "2021-06-04T03:38:34.092Z",
+        "updatedAt": "2021-06-04T03:40:13.043Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-04T03:40:13.043Z",
+        "firstPublishedAt": "2021-06-04T03:38:34.484Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Benefits",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "smallIntroHeader",
+          "name": "Small intro header",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "header",
+          "name": "Header",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "benefits",
+          "name": "Benefits",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "benefitBlock"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "benefitBlock",
+        "type": "ContentType",
+        "createdAt": "2021-06-04T03:39:37.309Z",
+        "updatedAt": "2021-06-04T03:39:37.550Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-06-04T03:39:37.550Z",
+        "firstPublishedAt": "2021-06-04T03:39:37.550Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Benefit block",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "header",
+          "name": "Header",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "copy",
+          "name": "Copy",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "page",
+        "type": "ContentType",
+        "createdAt": "2021-06-07T17:59:38.126Z",
+        "updatedAt": "2021-06-07T17:59:50.926Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-07T17:59:50.926Z",
+        "firstPublishedAt": "2021-06-07T17:59:38.393Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Compose: Page",
+      "description": "Represents a web page in Compose. DO NOT DELETE",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Page title",
+          "type": "Symbol",
+          "localized": true,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": true,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            },
+            {
+              "regexp": {
+                "pattern": "^((\\/)|(([\\/\\w\\-\\._~:!$&'\\(\\)*+,;@]|(%\\d+))+))$"
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "seo",
+          "name": "SEO metadata",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "seo"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkContentType": [
+                "page_landing",
+                "page_help_center_article",
+                "pageProductLandingPage"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "seo",
+        "type": "ContentType",
+        "createdAt": "2021-06-07T17:59:38.138Z",
+        "updatedAt": "2021-06-07T17:59:38.409Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-06-07T17:59:38.409Z",
+        "firstPublishedAt": "2021-06-07T17:59:38.409Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Compose: SEO",
+      "description": "SEO Metadata for web pages in Compose. DO NOT DELETE",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "SEO title",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "keywords",
+          "name": "Keywords",
+          "type": "Array",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "no_index",
+          "name": "Hide page from search engines (noindex)",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "no_follow",
+          "name": "Exclude links from search rankings? (nofollow)",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "pageProductLandingPage",
+        "type": "ContentType",
+        "createdAt": "2021-06-07T17:59:49.783Z",
+        "updatedAt": "2021-06-07T17:59:50.048Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-06-07T17:59:50.048Z",
+        "firstPublishedAt": "2021-06-07T17:59:50.048Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Product Landing Page",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Internal Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-06-04T03:29:03.901Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-04T03:36:18.964Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "hero",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "verticalTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "header",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "shortCopy",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-06-04T03:33:40.855Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-04T03:36:08.305Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "storyBlock",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "introHeader",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "header",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "copy",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 24,
+        "createdAt": "2021-06-04T03:34:33.284Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-06T01:24:18.632Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "story",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "tagLine",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "intro",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "backgroundImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "stories",
+          "widgetId": "entryCardsEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-06-04T03:38:34.552Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-04T03:40:13.508Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "benefits",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "smallIntroHeader",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "header",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "benefits",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-06-04T03:39:37.717Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-04T03:39:38.139Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "benefitBlock",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "header",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "copy",
+          "widgetId": "multipleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 3,
+        "createdAt": "2021-06-07T17:59:38.515Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-07T17:59:50.992Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "page",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "This will be displayed at the top of the page when published"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "The last part of the URL for this page"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "seo",
+          "widgetId": "entryCardEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "entryCardEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-06-07T17:59:38.512Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-07T17:59:38.772Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "seo",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "settings": {
+            "helpText": "⚠️ Don't edit this field! The Compose will fill it for you."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "This will override the page title in search engine results"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "This will be displayed in search engine results"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "keywords",
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "no_index",
+          "settings": {
+            "helpText": "Search engines will not include this page in search results",
+            "trueLabel": "Yes",
+            "falseLabel": "No"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "no_follow",
+          "settings": {
+            "helpText": "Search engines will not follow the links on your page",
+            "trueLabel": "Yes",
+            "falseLabel": "No"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "19bjkul7u53o",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 1,
+        "createdAt": "2021-06-07T17:59:50.130Z",
+        "createdBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-07T17:59:50.130Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4fyIZViZMUNWGsSutymrqz",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "pageProductLandingPage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "7lHSjrW2vOIhVmDXS3knNi",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:40:42.444Z",
+        "updatedAt": "2021-06-10T20:34:47.866Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-06-10T20:34:47.866Z",
+        "firstPublishedAt": "2021-06-06T01:53:19.831Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Default hero"
+        },
+        "verticalTitle": {
+          "en-US": "SPRING COLLECTION"
+        },
+        "header": {
+          "en-US": "Show your wild side."
+        },
+        "shortCopy": {
+          "en-US": "We are driven by the simple idea of making products that match our values and lifestyle choices."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "mPAJ7yflTFVvX00Xu7xts"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "6jOqXJxoBdVr1aBqMjBbP1",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:44:44.835Z",
+        "updatedAt": "2021-08-03T22:24:52.136Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2021-08-03T22:24:52.136Z",
+        "firstPublishedAt": "2021-06-06T01:22:24.172Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 22,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "story"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Default story"
+        },
+        "title": {
+          "en-US": "Suspendisse at lacinia dui, quis posuere magna."
+        },
+        "tagLine": {
+          "en-US": "Lorem ipsum dolor"
+        },
+        "intro": {
+          "en-US": "Duis sed arcu varius, semper quam eget, venenatis eros. Aliquam tincidunt, justo eget ullamcorper finibus, justo arcu luctus felis, ut rhoncus leo turpis eu lectus. Suspendisse egestas lacinia rhoncus. Nam nec urna vestibulum, placerat enim eget, dapibus metus. Sed ultrices neque dignissim, accumsan neque ut, imperdiet enim."
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2FckUcsSbXRMVYjWTybgaq"
+            }
+          }
+        },
+        "stories": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4Yb4dtmsoY83LIj4XHiBEo"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4gdLUPrDM56ri1bGAMcuPt"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "6jFTJIQ4jKVr9qmO6icslK",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:44:53.578Z",
+        "updatedAt": "2021-06-06T01:53:19.822Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-06-06T01:53:19.822Z",
+        "firstPublishedAt": "2021-06-06T01:53:19.822Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "storyBlock"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Default story one"
+        },
+        "introHeader": {
+          "en-US": "Story block 1"
+        },
+        "header": {
+          "en-US": "Suspendisse at lacinia dui, quis posuere magna."
+        },
+        "copy": {
+          "en-US": "Duis sed arcu varius, semper quam eget, venenatis eros. Aliquam tincidunt, justo eget ullamcorper finibus, justo arcu luctus felis, ut rhoncus leo turpis eu lectus. Suspendisse egestas lacinia rhoncus. Nam nec urna vestibulum, placerat enim eget, dapibus metus. Sed ultrices neque dignissim, accumsan neque ut, imperdiet enim."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "4Yb4dtmsoY83LIj4XHiBEo",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:45:18.925Z",
+        "updatedAt": "2021-06-06T01:53:19.846Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-06T01:53:19.846Z",
+        "firstPublishedAt": "2021-06-06T01:53:19.846Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "storyBlock"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Default story two"
+        },
+        "introHeader": {
+          "en-US": "Story block 2"
+        },
+        "header": {
+          "en-US": "Donec congue at neque nec egestas."
+        },
+        "copy": {
+          "en-US": "Duis sed arcu varius, semper quam eget, venenatis eros. Aliquam tincidunt, justo eget ullamcorper finibus, justo arcu luctus felis, ut rhoncus leo turpis eu lectus."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "4gdLUPrDM56ri1bGAMcuPt",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:45:45.263Z",
+        "updatedAt": "2021-06-06T01:53:19.831Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-06-06T01:53:19.831Z",
+        "firstPublishedAt": "2021-06-06T01:53:19.831Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "storyBlock"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Default story three"
+        },
+        "introHeader": {
+          "en-US": "Story block 3"
+        },
+        "header": {
+          "en-US": "Donec congue at neque nec egestas."
+        },
+        "copy": {
+          "en-US": "Duis sed arcu varius, semper quam eget, venenatis eros. Aliquam tincidunt, justo eget ullamcorper finibus, justo arcu luctus felis, ut rhoncus leo turpis eu lectus."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "2BM6q63DOIdZAFgkFHXCHV",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:46:24.707Z",
+        "updatedAt": "2021-06-06T01:53:02.324Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2021-06-06T01:53:02.324Z",
+        "firstPublishedAt": "2021-06-06T01:53:02.324Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "benefits"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Default benefits"
+        },
+        "smallIntroHeader": {
+          "en-US": "BENEFITS"
+        },
+        "header": {
+          "en-US": "This product has amazing benefits"
+        },
+        "benefits": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5WYzvnNQo7RGhCfEJlKojV"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7uPpuRv61QJ7zzRcJzWmTH"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4tszQw2vAHRREPpkBfOpoc"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3WfGzgTiavlaJPPsrhDOPe"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "4tszQw2vAHRREPpkBfOpoc",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:46:55.162Z",
+        "updatedAt": "2021-06-06T01:53:20.831Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-06T01:53:20.831Z",
+        "firstPublishedAt": "2021-06-06T01:53:20.831Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "benefitBlock"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "simple not complicated"
+        },
+        "header": {
+          "en-US": "Simple, not complicated"
+        },
+        "copy": {
+          "en-US": "Nunc egestas dolor vel volutpat rutrum. In viverra commodo metus, semper sagittis sem rutrum quis. Duis lectus odio, tristique ac nunc nec, tempus vestibulum leo. Proin convallis faucibus mi, et efficitur lectus sollicitudin id. Etiam aliquet, risus in venenatis eleifend, diam magna placerat augue, sed ornare sem libero eget purus."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "7uPpuRv61QJ7zzRcJzWmTH",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:47:29.427Z",
+        "updatedAt": "2021-06-06T01:53:20.833Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-06T01:53:20.833Z",
+        "firstPublishedAt": "2021-06-06T01:53:20.833Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "benefitBlock"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Clothes that match your values"
+        },
+        "header": {
+          "en-US": "Clothes that match your values"
+        },
+        "copy": {
+          "en-US": "Nunc egestas dolor vel volutpat rutrum. In viverra commodo metus, semper sagittis sem rutrum quis. Duis lectus odio, tristique ac nunc nec, tempus vestibulum leo. Proin convallis faucibus mi, et efficitur lectus sollicitudin id. Etiam aliquet, risus in venenatis eleifend, diam magna placerat augue, sed ornare sem libero eget purus."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "5WYzvnNQo7RGhCfEJlKojV",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:47:50.067Z",
+        "updatedAt": "2021-06-26T15:06:47.166Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-06-26T15:06:47.166Z",
+        "firstPublishedAt": "2021-06-06T01:53:20.877Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "benefitBlock"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Communities not shareholders"
+        },
+        "header": {
+          "en-US": "Communities not shareholders"
+        },
+        "copy": {
+          "en-US": "Nunc egestas dolor vel volutpat rutrum. In viverra commodo metus, semper sagittis sem rutrum quis. Duis lectus odio, tristique ac nunc nec, tempus vestibulum leo. Proin convallis faucibus mi, et efficitur lectus sollicitudin id. Etiam aliquet, risus in venenatis eleifend, diam magna placerat augue, sed ornare sem libero eget purus."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "3WfGzgTiavlaJPPsrhDOPe",
+        "type": "Entry",
+        "createdAt": "2021-06-04T03:48:21.713Z",
+        "updatedAt": "2021-06-06T01:53:20.018Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-06T01:53:20.018Z",
+        "firstPublishedAt": "2021-06-06T01:53:20.018Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "benefitBlock"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Durable not disposable"
+        },
+        "header": {
+          "en-US": "Durable, not disposable"
+        },
+        "copy": {
+          "en-US": "Nunc egestas dolor vel volutpat rutrum. In viverra commodo metus, semper sagittis sem rutrum quis. Duis lectus odio, tristique ac nunc nec, tempus vestibulum leo. Proin convallis faucibus mi, et efficitur lectus sollicitudin id. Etiam aliquet, risus in venenatis eleifend, diam magna placerat augue, sed ornare sem libero eget purus."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "2SO9Y7pfe48FjW4ReY4OFg",
+        "type": "Entry",
+        "createdAt": "2021-06-10T20:32:42.984Z",
+        "updatedAt": "2021-06-16T04:38:53.668Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-06-16T04:38:53.668Z",
+        "firstPublishedAt": "2021-06-10T20:34:11.814Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Hero for Women"
+        },
+        "verticalTitle": {
+          "en-US": "SPRING COLLECTION"
+        },
+        "header": {
+          "en-US": "Show your wild side."
+        },
+        "shortCopy": {
+          "en-US": "We are driven by the simple idea of making products that match our values and lifestyle choices."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2ven5Nj7E5aqrpmLtaYkPU"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "5zl0KOY8ThvM5YJj4EuWNu",
+        "type": "Entry",
+        "createdAt": "2021-06-10T20:34:59.157Z",
+        "updatedAt": "2021-06-16T04:39:19.786Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-06-16T04:39:19.786Z",
+        "firstPublishedAt": "2021-06-10T20:35:52.668Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Hero for men"
+        },
+        "verticalTitle": {
+          "en-US": "SPRING COLLECTION"
+        },
+        "header": {
+          "en-US": "Show your wild side."
+        },
+        "shortCopy": {
+          "en-US": "We are driven by the simple idea of making products that match our values and lifestyle choices."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7KCEMQNWbIzbAELwnokMJD"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "2UzV4wTVJJIku1WTpV3jYV",
+        "type": "Entry",
+        "createdAt": "2021-06-10T20:36:02.578Z",
+        "updatedAt": "2021-06-16T04:39:09.188Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-16T04:39:09.188Z",
+        "firstPublishedAt": "2021-06-10T20:36:54.422Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Hipster dude hero"
+        },
+        "verticalTitle": {
+          "en-US": "SPRING COLLECTION"
+        },
+        "header": {
+          "en-US": "Show your wild side."
+        },
+        "shortCopy": {
+          "en-US": "We are driven by the simple idea of making products that match our values and lifestyle choices."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "ZvRu139kmRouBSaFGm9pW"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "3f6dK8U9kY04A4CnxNC5Nr",
+        "type": "Entry",
+        "createdAt": "2021-06-10T20:37:01.133Z",
+        "updatedAt": "2021-06-16T04:47:15.131Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2021-06-16T04:47:15.131Z",
+        "firstPublishedAt": "2021-06-10T20:38:10.963Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Luxury hero for Women"
+        },
+        "verticalTitle": {
+          "en-US": "SPRING COLLECTION"
+        },
+        "header": {
+          "en-US": "Show your wild side."
+        },
+        "shortCopy": {
+          "en-US": "We are driven by the simple idea of making products that match our values and lifestyle choices."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3eENOGXSKoXU71nG4qlWm0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "VwtvTm6NbAjzW9wmEGTOx",
+        "type": "Entry",
+        "createdAt": "2021-06-11T21:42:50.394Z",
+        "updatedAt": "2021-06-16T04:38:11.944Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-06-16T04:38:11.944Z",
+        "firstPublishedAt": "2021-06-11T21:43:21.501Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "story"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Story for Women"
+        },
+        "title": {
+          "en-US": "This is a story content for women"
+        },
+        "tagLine": {
+          "en-US": "Lorem ipsum dolor"
+        },
+        "intro": {
+          "en-US": "Duis sed arcu varius, semper quam eget, venenatis eros. Aliquam tincidunt, justo eget ullamcorper finibus, justo arcu luctus felis, ut rhoncus leo turpis eu lectus. Suspendisse egestas lacinia rhoncus. Nam nec urna vestibulum, placerat enim eget, dapibus metus. Sed ultrices neque dignissim, accumsan neque ut, imperdiet enim."
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2FckUcsSbXRMVYjWTybgaq"
+            }
+          }
+        },
+        "stories": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4Yb4dtmsoY83LIj4XHiBEo"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4gdLUPrDM56ri1bGAMcuPt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "5H5r3FceKJfd2eP6yClsy5",
+        "type": "Asset",
+        "createdAt": "2021-06-04T10:15:25.516Z",
+        "updatedAt": "2021-06-04T10:16:29.851Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-04T10:16:29.851Z",
+        "firstPublishedAt": "2021-06-04T10:16:29.851Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "woman-wearing-hat"
+        },
+        "description": {
+          "en-US": "woman wearing hat"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/5H5r3FceKJfd2eP6yClsy5/09915ef158129f275ca5f91049586330/woman-wearing-hat.jpg",
+            "details": {
+              "size": 291825,
+              "image": {
+                "width": 1632,
+                "height": 2448
+              }
+            },
+            "fileName": "woman-wearing-hat.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "6Wepm4saM3RwFjfgEho1ll",
+        "type": "Asset",
+        "createdAt": "2021-06-04T10:15:25.526Z",
+        "updatedAt": "2021-06-04T10:16:41.594Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-04T10:16:41.594Z",
+        "firstPublishedAt": "2021-06-04T10:16:41.594Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "yellow woman"
+        },
+        "description": {
+          "en-US": "woman walking along side a yellow shipping container"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/6Wepm4saM3RwFjfgEho1ll/c3a61452f63bdffb5991426f53bee86e/yellow_woman.jpg",
+            "details": {
+              "size": 112213,
+              "image": {
+                "width": 2384,
+                "height": 990
+              }
+            },
+            "fileName": "yellow_woman.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "4yrovq05vXx0FyVZyo4M3Y",
+        "type": "Asset",
+        "createdAt": "2021-06-04T10:15:25.549Z",
+        "updatedAt": "2021-06-04T10:16:29.775Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-04T10:16:29.775Z",
+        "firstPublishedAt": "2021-06-04T10:16:29.775Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Purple Woman"
+        },
+        "description": {
+          "en-US": "woman with purple hair"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/4yrovq05vXx0FyVZyo4M3Y/2892437f7551d4af2ac4ab21f2aa0989/Purple_Woman.png",
+            "details": {
+              "size": 123924,
+              "image": {
+                "width": 420,
+                "height": 574
+              }
+            },
+            "fileName": "Purple_Woman.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "1LF4Ba6gH4l3VQLN9UpM8r",
+        "type": "Asset",
+        "createdAt": "2021-06-04T10:23:33.671Z",
+        "updatedAt": "2021-06-04T10:24:00.394Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-06-04T10:24:00.394Z",
+        "firstPublishedAt": "2021-06-04T10:24:00.394Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "couple hero"
+        },
+        "description": {
+          "en-US": "Black man and white woman couple"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/1LF4Ba6gH4l3VQLN9UpM8r/06970462f6762059bf817ec312695822/couple_hero.png",
+            "details": {
+              "size": 224283,
+              "image": {
+                "width": 798,
+                "height": 1090
+              }
+            },
+            "fileName": "couple_hero.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "3WZFgGX3TbpQx8xt8LieHE",
+        "type": "Asset",
+        "createdAt": "2021-06-04T10:24:52.410Z",
+        "updatedAt": "2021-06-30T22:01:02.123Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-06-30T22:01:02.123Z",
+        "firstPublishedAt": "2021-06-30T22:01:02.123Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "hipster secondary"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/3WZFgGX3TbpQx8xt8LieHE/fda7eb06fc8856a2e76b12a4f1b560c7/hipster_secondary.jpg",
+            "details": {
+              "size": 243560,
+              "image": {
+                "width": 2384,
+                "height": 990
+              }
+            },
+            "fileName": "hipster_secondary.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "2FckUcsSbXRMVYjWTybgaq",
+        "type": "Asset",
+        "createdAt": "2021-06-06T01:21:54.283Z",
+        "updatedAt": "2021-06-06T01:22:15.452Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-06T01:22:15.452Z",
+        "firstPublishedAt": "2021-06-06T01:22:15.452Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "yellow woman"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/2FckUcsSbXRMVYjWTybgaq/8c85c79a352f7d36c2d95ec8a529a31e/yellow_woman.jpg",
+            "details": {
+              "size": 112213,
+              "image": {
+                "width": 2384,
+                "height": 990
+              }
+            },
+            "fileName": "yellow_woman.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "2ven5Nj7E5aqrpmLtaYkPU",
+        "type": "Asset",
+        "createdAt": "2021-06-06T02:21:53.051Z",
+        "updatedAt": "2021-06-06T02:22:06.055Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-06T02:22:06.055Z",
+        "firstPublishedAt": "2021-06-06T02:22:06.055Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Purple Woman"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/2ven5Nj7E5aqrpmLtaYkPU/f994555f3eac28f189d7e21cdcc37f48/Purple_Woman.png",
+            "details": {
+              "size": 123924,
+              "image": {
+                "width": 420,
+                "height": 574
+              }
+            },
+            "fileName": "Purple_Woman.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "mPAJ7yflTFVvX00Xu7xts",
+        "type": "Asset",
+        "createdAt": "2021-06-10T20:34:24.026Z",
+        "updatedAt": "2021-06-10T20:34:44.461Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-10T20:34:44.461Z",
+        "firstPublishedAt": "2021-06-10T20:34:44.461Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Default hero"
+        },
+        "description": {
+          "en-US": "Default hero"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/mPAJ7yflTFVvX00Xu7xts/5eb5a4db1ab76e52a631cdb250b17fe6/couple_hero_2.png",
+            "details": {
+              "size": 224283,
+              "image": {
+                "width": 798,
+                "height": 1090
+              }
+            },
+            "fileName": "couple_hero 2.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "7KCEMQNWbIzbAELwnokMJD",
+        "type": "Asset",
+        "createdAt": "2021-06-10T20:35:35.431Z",
+        "updatedAt": "2021-06-10T20:35:48.216Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-10T20:35:48.216Z",
+        "firstPublishedAt": "2021-06-10T20:35:48.216Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Male hero"
+        },
+        "description": {
+          "en-US": "Male hero"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/7KCEMQNWbIzbAELwnokMJD/6143c627b3faef7b70dcdb07ebe3aebb/Male_hero.png",
+            "details": {
+              "size": 217422,
+              "image": {
+                "width": 798,
+                "height": 1090
+              }
+            },
+            "fileName": "Male_hero.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "ZvRu139kmRouBSaFGm9pW",
+        "type": "Asset",
+        "createdAt": "2021-06-10T20:36:23.448Z",
+        "updatedAt": "2021-06-10T20:36:48.918Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-10T20:36:48.918Z",
+        "firstPublishedAt": "2021-06-10T20:36:48.918Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Male hipster hero"
+        },
+        "description": {
+          "en-US": "Male hipster hero"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/ZvRu139kmRouBSaFGm9pW/2522339915b871a9f4e187f4f90c0b12/Hipster_hero.png",
+            "details": {
+              "size": 319380,
+              "image": {
+                "width": 798,
+                "height": 1090
+              }
+            },
+            "fileName": "Hipster_hero.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "id": "3eENOGXSKoXU71nG4qlWm0",
+        "type": "Asset",
+        "createdAt": "2021-06-10T20:37:27.589Z",
+        "updatedAt": "2021-06-10T20:38:06.532Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-10T20:38:06.532Z",
+        "firstPublishedAt": "2021-06-10T20:38:06.532Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Female upscale hero"
+        },
+        "description": {
+          "en-US": "Female upscale hero"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/19bjkul7u53o/3eENOGXSKoXU71nG4qlWm0/a4f544ce1b6c9b7466924a918eab2ad7/Upscale_hero.png",
+            "details": {
+              "size": 1157139,
+              "image": {
+                "width": 798,
+                "height": 1090
+              }
+            },
+            "fileName": "Upscale_hero.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "65m9oMQX45703xyMHj4P6T",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "d3725a4b-75cd-4300-b85b-b1fec14146a9"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "createdAt": "2021-06-04T03:20:48Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedAt": "2021-06-04T03:20:48Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "65n8pYUwprzloX82a6kHTF",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "19bjkul7u53o"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "createdAt": "2021-06-04T03:20:48Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4fyIZViZMUNWGsSutymrqz"
+          }
+        },
+        "updatedAt": "2021-06-04T03:20:48Z"
+      }
+    }
+  ]
+}

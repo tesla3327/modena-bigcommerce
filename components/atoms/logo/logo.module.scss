@@ -1,0 +1,5 @@
+@use 'styles/placeholder';
+
+.logo {
+    @extend %center-content;
+}

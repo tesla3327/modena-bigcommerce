@@ -1,0 +1,9 @@
+id: productCategoryPage
+name: Product Category Page
+icon: add-r
+parameters: []
+slots: []
+titleParameter: ''
+canBeComposition: true
+created: '2021-08-04T19:01:08.562369+00:00'
+updated: '2021-08-11T16:19:14.944893+00:00'

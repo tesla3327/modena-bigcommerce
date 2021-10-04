@@ -1,0 +1,57 @@
+@use 'styles/placeholder';
+
+.composition-button {
+  background: #7ad7da;
+  color: #1d3557;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0;
+  width: 60px;
+}
+
+.composition-button-on {
+  box-shadow: 0px 5px 20px 10px #7ad7da;
+}
+
+.composition-button-off {
+  opacity: 0.5;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #000;
+}
+
+.sidenav-open {
+  width: 500px;
+}
+
+.sidenav-close {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #aaa;
+  display: block;
+  transition: 0.3s;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.sidenav-close:hover {
+  color: #f1f1f1;
+}

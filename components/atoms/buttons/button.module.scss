@@ -1,0 +1,31 @@
+@use 'styles/placeholder';
+
+.btn {
+  $this: &;  
+
+  &__icon {
+    display: block;
+    margin: 2px 0 0 var(--spacing-sm);
+    transition: transform 0.25s ease-in-out;    
+  }
+
+  &:hover,
+  &:focus {
+    #{$this}__icon {
+      transform: translateX(5px);
+    }
+  }
+
+  &--primary {
+    @extend %btn-primary;
+  }
+
+  &--secondary {
+    @extend %btn-secondary;
+    color: var(--brand-primary-2);
+    #{$this}__icon {
+      color: var(--brand-primary-2);
+    }
+  }
+}
+

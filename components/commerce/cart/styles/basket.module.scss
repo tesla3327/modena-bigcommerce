@@ -1,0 +1,32 @@
+@use 'styles/placeholder';
+@import "styles/breakpoints";
+
+.basket {
+    @extend %btn-reset;
+    align-items: center;
+    display: flex;
+    position: relative;
+    font-weight: var(--font-semibold);
+    position: absolute;
+    right: 0;
+
+    &__icon {
+        position: relative;
+        margin: 0 var(--spacing-sm) 0 0;
+    }
+
+    &__counter {
+        position: absolute;
+        bottom: var(--spacing-xxsm);
+        left: 0;
+        right: 0;        
+    }
+
+    &__label {
+        display: none;
+        @include breakpoint(lg) {
+            display: block;
+            margin: var(--spacing-base) var(--spacing-base) 0 0;
+        }
+    }
+}

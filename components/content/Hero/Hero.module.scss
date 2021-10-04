@@ -1,0 +1,72 @@
+@use 'styles/placeholder';
+@import "styles/breakpoints";
+
+.hero {
+  @extend %container;
+
+  @include breakpoint(lg) {
+    padding: var(--spacing-2xl) 0 0;
+  }
+
+  &__inner {
+    background: var(--brand-primary-1) no-repeat center center;
+    color: var(--gray-50);
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: var(--max-inner-content);
+    width: 100%;
+    position: relative;
+  }
+
+  &__tag {
+    background: var(--gray-50);
+    color: var(--brand-primary-1);
+    display: block;
+    text-transform: uppercase;
+    padding: 0 var(--spacing-sm);
+    writing-mode: vertical-lr;
+  }
+
+  &__title {
+    font-size: clamp(
+      var(--font-size),
+      5vw + var(--font-size),
+      var(--font-size-2xl)
+    );
+    margin: 0 0 var(--spacing-sm);
+    line-height: var(--line-height-sm);
+
+    @include breakpoint(sm) {
+      max-width: 70%;
+    }
+  }
+
+  &__text {
+    max-width: 50%;
+  }
+
+  &__content {
+    position: relative;
+    padding: var(--spacing-sm);
+    z-index: var(--z-10);
+
+    @include breakpoint(sm) {
+      padding: var(--spacing-xl);
+    }
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 36vw;
+    width: 420px;
+
+    > div {
+      // next image adds inline-block style onto the div,
+      // inline-block will generate extra spacing so I need to use an important here
+      // maybe we should use picture element and roll our own?
+      display: block !important;
+    }
+  }
+}

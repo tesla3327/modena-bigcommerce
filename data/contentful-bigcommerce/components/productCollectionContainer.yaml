@@ -1,0 +1,26 @@
+id: productCollectionContainer
+name: Product Collection Container
+icon: folder-add
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    typeConfig:
+      required: true
+  - id: tag
+    name: Tag
+    type: text
+    typeConfig:
+      required: true
+slots:
+  - id: products
+    name: Products
+    maxComponents: 3
+    minComponents: 0
+    allowedComponents:
+      - productCollectionItem
+    inheritAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2021-06-30T21:38:52.828679+00:00'
+updated: '2021-08-11T16:01:30.808752+00:00'
