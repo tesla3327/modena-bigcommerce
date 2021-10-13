@@ -203,6 +203,19 @@ In order to create a new webhook:
    - Leave other settings as `Default`
    
 
-  Publish your Intents when done to make them avaible to your build.
+  Publish your Intents when done to make them available to your build.
 
 
+# Appendix C: Configuring hot reload for intent changes
+Any changes to intents requires an updated manifest be deployed to your app. The npm script `generate:intents` handles this. This script runs when the app starts. This script can also be configured to run when the intents are published using a Uniform Webhook.
+
+> NOTE: Since Uniform sends a request to your app, your app must be accessible via the internet. You can use ngrok to expose your app.
+
+1. Set the following env var value:
+   ```
+   UNIFORM_WEBHOOK_SECRET=your-secret
+   ```
+1. In Uniform, add a webhook that calls the `/api/publish` endpoint and passes the webhook secret value:
+   ```
+   https://yoursite.com/api/publish/?secret=your-secret
+   ```
