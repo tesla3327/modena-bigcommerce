@@ -53,6 +53,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.16",
     "@contentful/rich-text-html-renderer": "^15.1.0",
+    "@netlify/plugin-nextjs": "3.9.2",
     "@next/bundle-analyzer": "^11.0.1",
     "@storybook/addon-actions": "^6.2.9",
     "@storybook/addon-essentials": "^6.2.9",
