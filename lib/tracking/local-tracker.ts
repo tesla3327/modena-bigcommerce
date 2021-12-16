@@ -1,9 +1,8 @@
 import { createDefaultTracker } from '@uniformdev/optimize-tracker-browser';
-import { DeliveryAPIResult } from '@uniformdev/optimize-common';
+import { DeliveryIntentManifest } from '@uniformdev/optimize-common';
 import { indexedDbScopeStorage } from '@uniformdev/optimize-tracker-storage-indexeddb';
 import { Analytics } from 'analytics';
 import googleAnalyticsPlugin from '@analytics/google-analytics';
-import segmentPlugin from '@analytics/segment';
 import intentManifest from '../intentManifest.json';
 import { addAnalyticsPlugin } from '@uniformdev/optimize-tracker-analytics';
 import getConfig from 'next/config';
@@ -23,14 +22,6 @@ if (publicRuntimeConfig?.gaTrackingId) {
         strongestIntentMatch: 'dimension1',
         allIntentMatches: 'dimension2',
       },
-    })
-  );
-}
-
-if (publicRuntimeConfig?.segmentTrackingId) {
-  plugins.push(
-    segmentPlugin({
-      writeKey: publicRuntimeConfig.segmentTrackingId,
     })
   );
 }
@@ -55,7 +46,7 @@ if ((global as any)?.__NEXT_DATA__?.nextExport) {
 
 export const createLocalTracker = (ctx?: NextPageContext): Tracker =>
   createDefaultTracker({
-    intentManifest: intentManifest as DeliveryAPIResult,
+    intentManifest: intentManifest as DeliveryIntentManifest,
     addPlugins: [addAnalyticsPlugin({ analytics })],
     storage: {
       scopes: indexedDbScopeStorage({

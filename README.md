@@ -80,7 +80,7 @@ At this time, only the export dump for Contentful is available, content for othe
 1. Login to Contentful via CLI: `contentful login` and follow the steps.  
 Check that you have access to your space via CLI: `contentful space list`.
 
-1. Run `contentful space import --space-id <your-space-id> --content-file content/contentful-modena-export.json` to import the content (change space id to your Contentful space id).
+1. Run `npx contentful space import --space-id <your-space-id> --content-file content/contentful-modena-export.json` to import the content (change space id to your Contentful space id).
 
 
    Learn more about Contentful export/import in the official docs [here](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/).
