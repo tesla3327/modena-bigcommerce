@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
-import { GetStaticPaths, GetStaticPropsContext } from 'next';
+import { GetStaticPropsContext } from 'next';
 import Head from 'next/head';
-import getConfig from 'next/config';
 import dynamic from 'next/dynamic';
 import { RootComponentInstance, CANVAS_DRAFT_STATE, CANVAS_PUBLISHED_STATE } from '@uniformdev/canvas';
 import { enhancers } from 'lib/enhancers';
@@ -16,19 +15,15 @@ export default function Home({
   preview,
   composition,
 }: {
-  preview?: string;
+  preview?: boolean;
   composition: RootComponentInstance;
 }) {
   const containerRef = useRef(null);
-  const {
-    publicRuntimeConfig: { previewEnabled },
-  } = getConfig();
-
   return (
     <>
       <Head>
-        <title>Modena Landing</title>
-        <meta name="description" content="Modena demo page"></meta>
+        <title>Modena: Uniform Demo</title>
+        <meta name="description" content="Modena uniform demo page"></meta>
       </Head>
       <div ref={containerRef}>
         <Composition data={composition} resolveRenderer={resolveRenderer}>
@@ -37,9 +32,7 @@ export default function Home({
           <Slot name="footer" />
         </Composition>
       </div>
-      {previewEnabled === 'true' && (
-        <PreviewDevPanel containerRef={containerRef} preview={preview} composition={composition} />
-      )}
+      {preview && <PreviewDevPanel containerRef={containerRef} preview={preview} composition={composition} />}
     </>
   );
 }
@@ -49,9 +42,6 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   const slugString = Array.isArray(slug) ? slug.join('/') : slug;
 
   const { preview } = context;
-  const {
-    publicRuntimeConfig: { previewEnabled },
-  } = getConfig();
 
   const apiResult = await canvasClient.getCompositionBySlug({
     slug: `/${slugString}`,

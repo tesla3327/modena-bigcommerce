@@ -2,7 +2,7 @@ import { ScoringStorage, TestStorage } from '@uniformdev/optimize-tracker-common
 import { NextPageContext } from 'next';
 import { parseCookies, setCookie } from 'nookies';
 import { cookieScoringStorage, cookieTestStorage } from '@uniformdev/optimize-tracker';
-import { GetCookie, SetCookie } from '@uniformdev/optimize-tracker/dist/cjs/storage/cookie/common';
+import { GetCookie, SetCookie } from '@uniformdev/optimize-tracker';
 
 const createCookieAccess: (ctx?: NextPageContext) => {
   getCookie: GetCookie;
