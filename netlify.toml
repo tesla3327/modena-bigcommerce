@@ -1,6 +1,6 @@
 [build]
   publish = "out"
-  command = "npm run ci:build"
+  command = "npm run build"
 
 [template.environment]
   UNIFORM_PROJECT_ID='Uniform project Id'

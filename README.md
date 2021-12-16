@@ -127,9 +127,9 @@ In order to create a new webhook:
 1. Run the following command:
 
    ```shell
-   npm run ci:build
+   npm run build
    # or
-   yarn ci:build
+   yarn build
 
    ```
 
