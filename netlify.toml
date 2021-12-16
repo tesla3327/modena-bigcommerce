@@ -1,4 +1,5 @@
 [build]
+  publish = ".next"
   command = "npm run build"
 
 [template.environment]
