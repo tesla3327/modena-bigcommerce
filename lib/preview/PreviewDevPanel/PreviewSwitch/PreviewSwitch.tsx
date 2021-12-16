@@ -24,7 +24,7 @@ function PreviewSwitch({ previewing }: { previewing: boolean }) {
   const router = useRouter();
   usePreview(previewing);
   const {
-    publicRuntimeConfig: { previewSecret },
+    serverRuntimeConfig: { previewSecret },
   } = getConfig();
   return (
     <button

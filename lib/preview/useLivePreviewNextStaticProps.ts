@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router';
 import { useCallback } from 'react';
+import { useRouter } from 'next/router';
 import { useCompositionEventEffect, UseCompositionEventEffectOptions } from '@uniformdev/canvas-react';
 
 type UseLivePreviewNextStaticPropsOptions = Omit<UseCompositionEventEffectOptions, 'effect' | 'enabled'>;
@@ -8,6 +8,7 @@ function useLivePreviewNextStaticProps(options: UseLivePreviewNextStaticPropsOpt
   const router = useRouter();
 
   const effect = useCallback(() => {
+    console.log('🥽 Preview updated.');
     router.replace(router.asPath, undefined, { scroll: false });
   }, [router]);
 
