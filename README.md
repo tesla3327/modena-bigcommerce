@@ -12,14 +12,12 @@ The project is enabled for edge-side personalization and A/B testing, however it
 
 ## Step 1: Package installation
 
-1. Set the `NPM_TOKEN` environment variable to the value provided by your Uniform account manager (see the `.npmrc` file).
-
-1. Install dependencies
-   ```shell
-   npm install
-   # or
-   yarn
-   ```
+Install dependencies
+```shell
+npm install
+# or
+yarn
+```
 
 ## Step 2: Application configuration
 
