@@ -1,5 +1,4 @@
 [build]
-  publish = ".next"
   command = "npm run build"
 
 [template.environment]
@@ -27,10 +26,6 @@
   for = "*.woff2"
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
-# Stores the next cache between builds for faster build time
-[[plugins]]
-  package = "netlify-plugin-cache-nextjs"
 
 [[plugins]]
   package = "netlify-plugin-subfont"
